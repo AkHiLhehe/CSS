@@ -1,0 +1,27 @@
+ul{
+    list-style-image: url("C:\Users\sriak\Desktop\College\User Interface Design\class exercises\CSS\3-4-2024\3-8-24\naruto op.gif");
+    list-style: inside square;
+}
+ol{
+    list-style-type: decimal-leading-zero;
+}
+li{
+    margin: 10px;
+}
+table{
+    width: 300px;
+    margin: auto;
+    border-spacing: 10px 20px;
+    border-collapse: collapse;
+}
+th{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+.Status{
+    text-align: right;
+}
+tr:nth-child(even){
+    background-color: blue;
+}

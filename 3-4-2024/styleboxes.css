@@ -1,0 +1,77 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+h1,h2{
+    font-stretch: condensed;
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration: none;
+    letter-spacing: .25em;
+    word-spacing: .25em;
+    text-align: center;
+    vertical-align: bottom;
+    text-indent: 50px;
+    border: 1px solid black;
+    width: 200px;
+}
+p{
+    line-height: 1.5em;
+    text-indent: 50px;
+    text-align: center;
+    text-shadow: 6px 2px 2px greenyellow;
+    border-style: solid dashed;
+    border-width: 7px 1px;
+    width: 80%;
+    /*overflow: scroll;*/
+    height: 700px;
+    background-color: sandybrown;
+    padding: 15px;
+    border-color: blue;
+    margin: 20px auto 10px auto;
+    /*
+    border-radius: 80px 50px;
+    box-shadow: inset 10px 10px 10px 20px red;
+    */
+    border: 30px solid;
+    border-image: url("C:\Users\sriak\Desktop\College\User Interface Design\class exercises\CSS\3-4-2024\hanuman.jpg");
+}
+.box{
+    max-width: 1500px;
+    min-width: 700px;
+    border: 1px solid blueviolet;
+}
+/*
+p::first-line{
+    font-size: 2em;
+}
+p::first-letter{
+    font-size: 2em;
+}
+*/
+a:visited{
+    color: brown;
+    border: 1px solid black;
+}
+a:link{
+    color: blue;
+    border: 1px solid black;
+}
+a:hover{
+    color: aqua;
+}
+a:focus{
+    color: blueviolet;
+}
+a:active{
+    color: darkgreen;
+}
+li{
+    display: inline;
+    margin: 10px;
+    border: 1px solid red;
+}
+.coming-soon{
+    visibility: hidden;
+}
